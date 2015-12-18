@@ -1,8 +1,8 @@
 require 'dxruby'
-require "./engine.rb"
+require "./Class/include.rb"
 
 # conf = File.read("config.ini", :encoding => Encoding::UTF_8)
-$AppName		= "Application Name"
+$AppName		= "An Alice and Marina's Cookie Kiss."
 $WindowWidth	= 1280
 $WindowHeight	= 720
 
@@ -25,8 +25,8 @@ Msg = MsgWindow.new
 # ● メインルーチン
 #-----------------------------------------
 Window.loop do                # メインループ
-	Background.loadImage("bg-test.jpg")
-	CharaPicture.show("center","rysee.png")
+	Background.loadImage("rikkyou.png")
+	CharaPicture.show("center","UDK.png")
 	Msg.show
 end
 

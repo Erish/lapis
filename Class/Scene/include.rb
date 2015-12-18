@@ -1,0 +1,1 @@
+require "./Class/Scene/Scene_Base.rb"

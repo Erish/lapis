@@ -1,8 +1,0 @@
-Titleクラス
-MsgWindowクラス
-Buttonクラス
-Textクラス
-Soundクラス
-BGMクラス
-Backgroundクラス
-Char_Graphicクラス

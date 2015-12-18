@@ -1,0 +1,2 @@
+class Sprite_Base
+end

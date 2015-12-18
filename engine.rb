@@ -6,21 +6,7 @@ module Scene_Manager
 	end
 end
 
-#-----------------------------------------
-# ● UI関連を管理するクラス
-#-----------------------------------------
-class UI_Manager
-	attr_accessor :text
-	
-	def self.initialize
-		init_member
-	end
-	
-	def self.init_member
-		@msgWindow	= MsgWindow.new
-		@text		= UI_Text.new
-	end
-end
+
 
 #-----------------------------------------
 # ● 立ち絵関連を管理するクラス
@@ -35,7 +21,7 @@ class Sprite_Manager
 		@img_left	= nil
 		@img_center = nil
 		@img_right	= nil
-		@path_root	= "./Image/Character/"
+		@path_root	= "./Image/Graphic/"
 		@start_x	= 100
 		@start_y	= 0
 		
@@ -127,7 +113,7 @@ class MsgWindow
 		@initialized	= false
 		@visible		= false
 		@pos			= 0
-		@background		= "System/UI/msgwindow.png"
+		@background		= "image/UI/message.png"
 		@text			= UI_Text.new
 	end
 	

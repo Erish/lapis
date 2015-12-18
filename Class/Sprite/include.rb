@@ -1,0 +1,1 @@
+require "./Class/Sprite/Sprite_Base.rb"
